@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gateles – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.6;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    .app-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #9b8f8a;
+      margin-bottom: 6px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #9b8f8a;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(0,0,0,0.06);
+      margin: 24px 0;
+    }
+
+    .section {
+      margin-bottom: 28px;
+    }
+
+    .section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+    }
+
+    .section p {
+      font-size: 15px;
+      color: #4b4340;
+      white-space: pre-line;
+    }
+
+    a {
+      color: #4b7bec;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background: #1a1a1a; color: #e8f5f1; }
+      h1 { color: #e8f5f1; }
+      .card { background: #242424; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+      .divider { background: rgba(255,255,255,0.08); }
+      .section h2 { color: #e8f5f1; }
+      .section p { color: rgba(232,245,241,0.72); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="app-label">Gateles</p>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Last updated: April 28, 2026</p>
+    </header>
+
+    <div class="card">
+
+      <div class="section">
+        <h2>Overview</h2>
+        <p>Gate ("we", "our", "the app") is built by a solo developer. This policy describes what personal data we collect, how we use it, and your rights. By using Gate, you agree to this policy.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Data We Collect</h2>
+        <p>Account: your email address and optional display name, stored securely via Supabase.
+
+Meditation sessions: start/end times, duration, verification method used, and the apps that were blocked during each session.
+
+Pose detection scores: when you verify via your camera, we analyze your posture locally on-device and store only the resulting confidence and stillness scores — your video is never uploaded.
+
+Device info: device model and iOS version, attached to each session record for debugging purposes.
+
+App selection: the list of apps you choose to block, stored in encoded form.
+
+Emergency unlock history: timestamps and optional reason text when you use an emergency unlock.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Camera &amp; Microphone</h2>
+        <p>Gate requests camera access solely to analyze your seated posture during meditation verification. Video frames are processed on-device by a local pose-detection model. No video footage is recorded, stored, or transmitted.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Health Data (HealthKit)</h2>
+        <p>If you choose the third-party meditation verification method, Gate reads mindfulness / meditation session records from Apple Health to confirm a completed session. We do not write to HealthKit, and we do not share or sell your health data. Health data is read on-device; only the session duration is stored on our servers.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Purchases &amp; Subscriptions</h2>
+        <p>Subscription purchases are processed through Apple and managed by RevenueCat. We receive only your subscription status and entitlement information — we never see your full payment details. RevenueCat's privacy policy applies to their handling of transaction data.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Screen Time &amp; Family Controls</h2>
+        <p>Gate uses Apple's Screen Time / Family Controls framework to enforce app blocks. The list of apps you choose to block is stored in encoded form on our servers so it can be restored across sessions. We do not collect or store your broader device Screen Time report.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>How We Use Your Data</h2>
+        <p>Provide core features (blocking, verification, scheduling).
+Track your meditation history and streaks within the app.
+Debug issues reported by your device model and OS version.
+Determine subscription status and apply entitlements.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Data Sharing</h2>
+        <p>We do not sell, rent, or trade your personal data. Data is shared only with:
+
+• Supabase — our backend database and authentication provider.
+• RevenueCat — subscription and purchase management.
+• Apple — HealthKit and Screen Time frameworks operate under Apple's privacy policy.
+
+All third-party providers are bound by their own privacy policies and applicable law.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Data Retention &amp; Deletion</h2>
+        <p>Your data is retained while your account is active. To delete your account and all associated data, contact us at <a href="mailto:helpgateles@gmail.com">helpgateles@gmail.com</a> and we will process the request within 30 days.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Security</h2>
+        <p>Auth tokens are stored in the iOS Keychain via Expo Secure Store. All data in transit is encrypted via HTTPS. We follow industry-standard practices but no system is 100% secure.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Children</h2>
+        <p>Gate is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child has provided us data, contact us and we will delete it promptly.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Changes to This Policy</h2>
+        <p>We may update this policy from time to time. When we do, we will update the "Last updated" date above. Continued use of Gate after changes constitutes acceptance of the updated policy.</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="section">
+        <h2>Contact</h2>
+        <p>Questions or requests? Reach us at <a href="mailto:helpgateles@gmail.com">helpgateles@gmail.com</a>.</p>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
